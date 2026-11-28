@@ -11,6 +11,10 @@ class CacheStorage():
         self.objects_dir.mkdir(parents=True, exist_ok=True)
         self.metadata_dir.mkdir(parents=True, exist_ok=True)
 
-
+    # implemet:
+    # recieve url
+    # hash it
+    # save it to objects
+    # create an object and save it too
 cache = CacheStorage('cache')
 print(cache.main_dir)
